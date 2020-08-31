@@ -14,7 +14,9 @@ it can be configured when running on Kubernetes (only) using *spark.kubernetes.m
 ![Spark Executor Memory Configuration](https://cern.ch/canali/docs/SparkExecutorMemory.png)
    
 **Figure 1:** Pictorial representation of the memory areas allocated and used by Spark executors and 
-the main parameters for their configuration.  Image source file: [SparkExecutorMemory.pptx](SparkExecutorMemory.pptx)
+the main parameters for their configuration.  
+- Image in png format: [SparkExecutorMemory.png](https://cern.ch/canali/docs/SparkExecutorMemory.png)
+- Image source, in powerpoint format: [SparkExecutorMemory.pptx](SparkExecutorMemory.pptx)
 
 ## Spark unified memory pool
 Spark tasks allocate memory for execution and storage from the JVM heap of the executors using a unified memory pool
